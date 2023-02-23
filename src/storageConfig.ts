@@ -3,13 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from 'firebase/storage';
 
 const firestoreConfig = {
-    apiKey: "AIzaSyBx2g70UgEyQOJ2b_NUPT1E6Shyzo2BsOk",
-    authDomain: "media-hub-766a3.firebaseapp.com",
-    projectId: "media-hub-766a3",
-    storageBucket: "media-hub-766a3.appspot.com",
-    messagingSenderId: "788098512897",
-    appId: "1:788098512897:web:8a6742f1a300b464be2800",
+    apiKey: "AIzaSyDXY4sA0RYOYt-vzGCUS7eNfM2cS2tSb_s",
+    authDomain: "media-hub-proto.firebaseapp.com",
+    projectId: "media-hub-proto",
+    storageBucket: "media-hub-proto.appspot.com",
+    messagingSenderId: "663821474061",
+    appId: "1:663821474061:web:7b402138d5c5deec2ab844"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firestoreConfig);
