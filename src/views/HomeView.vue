@@ -77,8 +77,7 @@
 
             <!-- Album items -->
             <div class="px-20">
-              <div :class="`columns-${numCols}`"
-                   class="gap-8"
+              <div class="sm:columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-8"
               >
                 <div v-for="item in reorderedIds"
                      :key="item"
@@ -445,8 +444,7 @@
             </p>
             <div>
               <div v-if="showResults"
-                   :class="`columns-${numCols}`"
-                   class="gap-12">
+                   class="sm:columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-8">
                 <div v-for="item in reorderedIds"
                      :key="item"
                      :class="{'break-after-column': columnBreaks.has(item)}"
@@ -571,18 +569,19 @@ const showMore: Ref<boolean> = ref(false); // toggles the show more button
 
 
 function resize() {
-  if (window.innerWidth < 640) {
+  console.log(window.innerWidth);
+  if (window.innerWidth < 768) {
     numCols.value = 1;
   }
   else if (window.innerWidth < 1024) {
     numCols.value = 2;
   }
-  else  {
+  else if (window.innerWidth < 1280) {
     numCols.value = 3;
   }
-  // else if (window.innerWidth >= 1280)  {
-  //   numCols.value = 4;
-  // } // doesnt work if 4 columns?
+  else  {
+    numCols.value = 4;
+  }
 }
 
 // change masonry columns when browser resizes
