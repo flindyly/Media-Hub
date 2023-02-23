@@ -5,7 +5,7 @@ Developed using Vue3 (Composition API and Single File Components), TypeScript an
 
 Live Demo: https://flindyly.github.io/Media-Hub
 
-For more details on the project, see the [wiki](https://github.com/flindyly/Media-Hub/wiki).
+For more details on the project including project specifications, wireframes and technical processes, see the [wiki](https://github.com/flindyly/Media-Hub/wiki).
 
 ## How to run
 
