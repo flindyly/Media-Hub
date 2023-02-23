@@ -1,7 +1,17 @@
 # Media Hub
-Media Hub is a 7-week internship project I undertook at the University of Adelaide that involved developing a searchable and navigable repository of reusable media assets that are created and sourced by the Media Production team within Learning Enhancement and Innovation (LEI). The tool is aimed to be used by professional and academic staff at the University of Adelaide to find material to use and re-use within their own courses. 
+Media Hub is a 7-week internship project I undertook at the University of Adelaide that involved developing a searchable and navigable repository of reusable media assets that are created and sourced by the [Media Production team](https://www.adelaide.edu.au/learning-enhancement-innovation/our-services/media-production) within [Learning Enhancement and Innovation (LEI)](https://www.adelaide.edu.au/learning-enhancement-innovation/). The tool is aimed to be used by professional and academic staff at the University of Adelaide to find material to use and re-use within their own courses. 
 
-Developed using Vue3 (Composition API and Single File Components), TypeScript and Tailwind CSS. The database is maintained in Google's Cloud Firestore and media thumbnails are stored in Cloud Storage. 
+The Media Hub contains two main features:
+1. An interface to search and filter through the Media Hub collection
+2. An upload tool for adding metadata to the database and uploading the asset to Box
+
+To be a supported and maintained product, the prototype utilises technology and frameworks already supported by the Media Production team:
+* coded using Vue3 (Composition API and Single File Components), TypeScript and Tailwind CSS
+* data stored on the Media Production team’s Google Firebase instance (Cloud Firestore)
+* utilised Github and the mediaproduction.adelaide.edu.au domain for delivery of the tool
+* used the UoA Box license to store large media assets
+* utilised existing styles and aligned to the Media Production team standards
+ 
 
 Live Demo: https://flindyly.github.io/Media-Hub
 
