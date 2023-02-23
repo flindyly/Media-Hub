@@ -2,6 +2,7 @@
 
 
 ## How to use and edit
+Live Demo: https://flindyly.github.io/Media-Hub
 
 1. Clone this repository
 2. [Install NPM](https://nodejs.org/en/download/) if not already installed
